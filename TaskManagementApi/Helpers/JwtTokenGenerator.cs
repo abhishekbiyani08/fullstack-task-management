@@ -22,24 +22,29 @@ namespace TaskManagementApi.Helpers
             var claims = new[]
             {
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                new Claim(ClaimTypes.Name, user.Username)
+                new Claim(ClaimTypes.Name, user.Username!)
             };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(
-                _config.GetSection("AppSettings:Token").Value!));
+            // Get the key once and validate it properly
+            var keyString = _config.GetSection("AppSettings:Token").Value;
+            if (string.IsNullOrEmpty(keyString) || keyString.Length < 32)
+            {
+                throw new InvalidOperationException("JWT token key must be at least 32 characters long");
+            }
 
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
+            var keyBytes = Encoding.UTF8.GetBytes(keyString);
+            var key = new SymmetricSecurityKey(keyBytes);
 
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(claims),
                 Expires = DateTime.UtcNow.AddDays(7),
-                SigningCredentials = creds
+                SigningCredentials = creds,
             };
 
             var tokenHandler = new JwtSecurityTokenHandler();
             var token = tokenHandler.CreateToken(tokenDescriptor);
-
             return tokenHandler.WriteToken(token);
         }
     }

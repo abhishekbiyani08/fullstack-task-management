@@ -21,6 +21,6 @@ namespace TaskManagementApi.Models
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         // Navigation property
-        public ICollection<UserTask> Tasks { get; set; }
+        public ICollection<UserTask>? Tasks { get; set; }
     }
 }

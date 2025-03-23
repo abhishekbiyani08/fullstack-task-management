@@ -1,12 +1,172 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|d:\\chris projects\\task-management-app\\taskmanagementapi\\helpers\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|solutionrelative:helpers\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|d:\\chris projects\\task-management-app\\taskmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|d:\\chris projects\\task-management-app\\taskmanagementapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|d:\\chris projects\\task-management-app\\taskmanagementapi\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|solutionrelative:data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|d:\\chris projects\\task-management-app\\taskmanagementapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|d:\\chris projects\\task-management-app\\taskmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|d:\\chris projects\\task-management-app\\taskmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|d:\\chris projects\\task-management-app\\taskmanagementapi\\data\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|solutionrelative:data\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|d:\\chris projects\\task-management-app\\taskmanagementapi\\models\\usertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C561AB3-293C-4375-A537-EC2A8430A8BD}|TaskManagementApi.csproj|solutionrelative:models\\usertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T08:10:44.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAuwDwAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T07:43:23.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T07:39:30.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\Data\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\TaskRepository.cs",
+              "ToolTip": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\Data\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T07:13:43.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\Helpers\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "Helpers\\JwtTokenGenerator.cs",
+              "ToolTip": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\Helpers\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "Helpers\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T07:10:56.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAywDkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T06:57:29.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserTask.cs",
+              "DocumentMoniker": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\Models\\UserTask.cs",
+              "RelativeDocumentMoniker": "Models\\UserTask.cs",
+              "ToolTip": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\Models\\UserTask.cs",
+              "RelativeToolTip": "Models\\UserTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T21:45:46.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwBcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T21:43:47.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Chris Projects\\Task-Management-App\\TaskManagementApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-22T21:43:35.183Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -22,12 +22,12 @@ namespace TaskManagementApi.Data.Repositories
         public async Task<User> GetByUsernameAsync(string username)
         {
             return await _context.Users
-                .SingleOrDefaultAsync(u => u.Username.ToLower() == username.ToLower());
+                .SingleOrDefaultAsync(u => u.Username!.ToLower() == username.ToLower());
         }
 
         public async Task<bool> UserExistsAsync(string username)
         {
-            if (await _context.Users.AnyAsync(u => u.Username.ToLower() == username.ToLower()))
+            if (await _context.Users.AnyAsync(u => u.Username!.ToLower() == username.ToLower()))
                 return true;
 
             return false;

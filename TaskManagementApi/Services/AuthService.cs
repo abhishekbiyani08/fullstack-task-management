@@ -58,7 +58,7 @@ namespace TaskManagementApi.Services
                 throw new ApplicationException("Invalid username or password");
 
             if (!PasswordHasher.VerifyPasswordHash(
-                userLoginDto.Password!, user.PasswordHash, user.PasswordSalt))
+                userLoginDto.Password!, user.PasswordHash!, user.PasswordSalt!))
                 throw new ApplicationException("Invalid username or password");
 
             var userToReturn = new UserDto
